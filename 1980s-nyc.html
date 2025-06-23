@@ -1,0 +1,117 @@
+!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>1980's NYC</title>
+  <style>
+    body {
+      background-color: #f0f0f0;
+      margin: 15;
+      font-family: franklin gothic;
+    }
+
+    #container {
+      width: 1600px;
+      height: 1064px;
+      margin: auto;
+      position: relative;
+      background-color: #000000;
+    }
+
+    .layer {
+      position: absolute;
+    }
+
+    #image1 {
+      top: 0px;
+      left: 0px;
+      width: 1600;
+      height: 650px;
+      z-index: 1;
+    }
+
+    #image2 {
+      top: 606px;
+      left: 1115px;
+      width: 475px;
+      height: 540px;
+      z-index: 5;
+    }
+
+    #image3 {
+      top: 250px;
+      left: -84px;
+      width: 1600px;
+      height: 902px;
+      rotate: 67;
+      z-index: 3;
+    }
+    
+    #image4 {
+      top: 239px;
+      left: 1226px;
+      width: 322px;
+      height: 333px;
+      z-index: 3;
+    }
+    
+    #image5 {
+      top: 731px;
+      left: 21px;
+      width: 451px;
+      height: 349px;
+      z-index: 3;
+    }
+
+    #text1 {
+      top: 479px;
+      left: 22px;
+      font-size: 81px;
+      font-family: impact;
+      -webkit-text-stroke: 2px black;      color: #ff1500;
+      z-index: 4;
+    }
+
+    #text2 {
+      top: 881px;
+      left: 707px;
+      font-size: 42px;
+      font-family: lucida sans;
+      color: #ffffff;
+      z-index: 5;
+    }
+
+        #text3 {
+      top: 1009px;
+      left: 1180px;
+      font-size: 29px;
+      font-family: lucida sans;
+      color: #ffffff;
+      z-index: 5;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="container">
+    <img src="80s-nyc.jpg" class="layer" id="image1">
+    <img src="judy-looking-night.png" class="layer" id="image2">
+    <img src="dance-floor.png" class="layer" id="image3">
+    <img src="80s-nyc.jpg" class="layer" id="image4">
+    <img src="dance-floor.png" class="layer" id="image5">
+
+
+
+    <div id="text1" class="layer">Is it in 1980s NYC New Wave Scene?</div>
+    <div id="text2" class="layer">Have any of you darling 
+      <br>
+      punks seen my 
+      <br>
+      precious locket?</div>
+    <div id="text3" class="layer">Not here... <a href="1960s-nyc.html">On to the next...</a></div>
+  </div>
+</body>
+
+</html>
