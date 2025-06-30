@@ -1,3 +1,13 @@
 .title {
-    color: green;
+    color: #b1006b;
+    font-size: 100px;
+    font-family: franklin gothic medium;
+    background-color: #e0ff7f
+}
+.body {
+    font-size: 30px;
+    font-family: courier new;
+    background-color: #ffe0f5
+    
+    
 }
