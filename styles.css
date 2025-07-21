@@ -1,13 +1,30 @@
 .title {
-    color: #b1006b;
+    color: #75388b;
     font-size: 100px;
     font-family: franklin gothic medium;
-    background-color: #e0ff7f
+    text-align: center;
 }
+
+.title2 {
+    color: #ff7f50;
+    font-size: 100px;
+    font-family: franklin gothic medium;
+    text-align: center;
+}
+
 .body {
-    font-size: 30px;
+    color: #211103;
+    font-size: 35px;
     font-family: courier new;
-    background-color: #ffe0f5
-    
-    
+    background-color: #ffe0f5;
+    text-align: center;
+}
+
+h1 {
+    color: (#75388b);
+    font-size: 75px;
+    font-family: franklin gothic medium;
+}
+p {
+  color: red;
 }
