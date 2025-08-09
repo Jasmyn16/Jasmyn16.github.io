@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Projects</title>
+  <style>
+    :root{
+      --ink:#2B2B2B; --muted:#6C6C6C;
+      --cream:#fdffe0; --mint:#b4fffb;
+      --plum:#75388b; --rule:#1E1E1E;
+      --radius:6px; --container:1024px;
+    }
+    body{
+      margin:0;
+      background:var(--cream);
+      color:var(--ink);
+      font-family:franklin gothic medium;
+    }
+    body::after{
+      content:""; position:fixed; left:0; right:0; bottom:0; height:120px;
+      background:linear-gradient(to top, var(--mint), transparent);
+      pointer-events:none;
+    }
+    a{color:inherit; text-decoration:none;}
+    .wrap{max-width:var(--container); margin:0 auto; padding:0 24px;}
+    .nav{display:flex; justify-content:space-between; padding:18px 24px;}
+    .brand, .links{font:14px/1 ui-monospace, monospace;}
+    .links{display:flex; gap:28px;}
+    .title{
+      font-weight:800; font-size:clamp(28px,4vw,42px);
+      color:var(--plum); text-align:center; margin:32px 0 48px;
+    }
+    .grid{
+      display:grid; gap:28px;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      margin-bottom:48px;
+    }
+    .card{
+      border:1px solid var(--rule);
+      border-radius:var(--radius);
+      background:#D9FFF3;
+      height:120px;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      font:14px/1.4 ui-monospace, monospace;
+      text-align:center;
+      padding:8px;
+    }
+    footer{
+      border-top:1px solid var(--rule);
+      max-width:680px; margin:0 auto 24px; padding-top:12px;
+      text-align:center; color:var(--muted);
+      font:14px/1.4 ui-monospace, monospace;
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="nav wrap">
+    <div class="brand">Jasmyn Prevatte</div>
+    <div class="links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="projects.html">Projects</a>
+      <a href="about.html">Contact</a>
+    </div>
+  </nav>
+
+  <h1 class="title">Projects</h1>
+
+  <main class="wrap">
+    <div class="grid">
+      <a class="card" href="style-guide.html">Style Guide</a>
+      <a class="card" href="pg%201.html">Three Page Assignment</a>
+      <a class="card" href="mermaids.html">Net.art</a>
+      <a class="card" href="404.html">404</a>
+      <a class="card" href="gif%20showcase.html">GIF Showcase</a>
+      <a class="card" href="dorotheas%20html%20story.html">HTML Story</a>
+      <a class="card" href="p5landscape.html">P5 Landscape</a>
+      <a class="card" href="p5js-selfportrait-01.html">P5JS Self Portrait V1</a>
+      <a class="card" href="404.html">RWD Practice Page</a>
+      <a class="card" href="p5js-selfportrait-02.html">P5JS Self Portrait V2</a>
+      <a class="card" href="wireframe.html">Wireframe Sketches</a>
+    </div>
+  </main>
+
+  <footer>
+    © 2025 Jasmyn Prevatte. All rights reserved.
+  </footer>
+
+</body>
+</html>
